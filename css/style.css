@@ -1,0 +1,45 @@
+html{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+body{
+  position: relative;
+  background-image: url('/732535.webp');
+  background-size: cover;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+
+img{
+  height: 400px;
+}
+
+p{
+  width: 900px;
+  line-height: 35px;
+  border: 4px solid blue;
+  padding: 20px;
+  color: white;
+  background: rgba(59, 59, 59, 0.8);
+}
+
+h1 {
+  color: white;
+}
+
+form{
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+}
+
+.hideIt{
+  display: none;
+}
